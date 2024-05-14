@@ -1,0 +1,82 @@
+:root {
+  --first-color: #222831;
+  --second-color: #393e46;
+  --third-color: #0092ca;
+  --fourth-color: #eeeeee;
+}
+
+.Weather {
+  background-color: var(--first-color);
+  color: var(--fourth-color);
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.Weather h2 {
+  color: var(--third-color);
+  font-weight: 600;
+}
+
+.Weather a {
+  text-decoration: none;
+}
+
+.Weather .date-time {
+  opacity: 0.8;
+}
+
+.Weather ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Weather ul.city-date {
+  text-align: start;
+}
+
+.Weather input {
+  margin: 5px;
+  border-radius: 4px;
+  border-style: none;
+  padding: 6px;
+}
+
+.Weather .search-button {
+  background-color: var(--fourth-color);
+  color: var(--first-color);
+}
+
+.Weather .location-icon {
+  height: 25px;
+  vertical-align: -4px;
+  opacity: 0.8;
+}
+
+.temperature {
+  font-size: 30px;
+}
+.description {
+  text-transform: capitalize;
+  opacity: 0.8;
+}
+.degrees {
+  font-size: 16px;
+  vertical-align: 9px;
+}
+
+.Weather .wrapper {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(2, 100px);
+}
+
+.Weather .icon {
+  background-color: var(--second-color);
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
