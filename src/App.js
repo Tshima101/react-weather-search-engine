@@ -8,14 +8,28 @@ export default function App() {
         <h1>Weather App</h1>
         <Weather defaultCity="Roodepoort" />
         <footer>
-          Open-source code on{" "}
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          , hosted on{" "}
-          <a href="https://" target="_blank" rel="noreferrer">
-            Netlify
-          </a>
+          <p>
+            This project was coded by{" "}
+            <a
+              href="https://github.com/Tshima101"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Tshimangadzo Lambani
+            </a>{" "}
+            and is on{" "}
+            <a
+              href="https://github.com/Tshima101/react-weather-search-engine"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>{" "}
+            and hosted on{" "}
+            <a href="https://.netlify.app" target="_blank" rel="noreferrer">
+              Netlify
+            </a>
+          </p>
         </footer>
       </div>
     </div>
