@@ -1,8 +1,8 @@
 :root {
-  --first-color: #3e4958;
+  --first-color: #e6edf9;
   --second-color: #7c8da7;
-  --third-color: #1987b3;
-  --fourth-color: #eeeeee;
+  --third-color: #901972;
+  --fourth-color: #121111;
 }
 
 .Weather {
@@ -15,7 +15,7 @@
 }
 
 .Weather h2 {
-  color: var(--first-color);
+  color: var(--fourth-color);
   font-weight: 600;
 }
 
