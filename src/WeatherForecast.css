@@ -1,7 +1,8 @@
 .WeatherForecast {
+  cursor: pointer;
+  background-color: (--second-color);
+  border-radius: 5px;
   margin-top: 20px;
-  background-color: var(--second-color);
-  border-radius: 4px;
   padding: 10px;
 }
 
